@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </head>
+
+    <body>
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+    <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center align-center" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#intro">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pjt">PROJECT</a>
+        </li>
+        
+        <li class="nav-item dropdown d-flex align-items-center">
+           <a class="nav-link" href="#contact"> CONTACT </a>
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+          </span>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://www.linkedin.com/in/hanan-hafees-mohammed-068b1a381?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><i class="bi bi-linkedin"></i></a></li>
+            <li><a class="dropdown-item" href="https://github.com/hananhafees09"><i class="bi bi-github"></i></a></li>
+            <li><a class="dropdown-item" href="mailto:hanan6hafees@gmail.com"><i class="bi bi-envelope-at-fill"></i></a></li>
+          </ul>
+        </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+
+        <div class="container" id="intro">
+            <div class="row justify-content-center align-center">
+            <div class="col-auto">
+            <img src="image/hanan.jpeg" alt="myself"id="myself">
+            </div>
+            <div class="col" id="text">
+                I am Hanan Hafees Mohammed an aspiring Software Developer. currently pursuing  a degree in software development. i am an organised and hardworking indiviual who is passionate about building impactful solutions that improve everyday life while being mindful of the environment.
+            </div>
+            </div>
+        </div>
+
+    <hr style="height: 3px; background-color: black; margin-top: 25px;">
+    
+   <div class="container" id="pjt">
+   <h3>PROJECTS</h3>
+ 
+   <div class="container ptext">
+    <h4>RESTOFF</h4>
+    <div >A Restaurant recommendation web application that suggests suitable dining option based on user preference such as occasion, budget, cuisine, and location. The platform is designed to simplify decision-making by helping users quickly identify restaurants that match their needs, saving time and enchancing the overall dining experience.</div>
+    <br>
+    <div class="project">
+    <a href="https://hananhafees09.github.io/restoff/" target="_blank"><img src="image/restoff.jpg" id="project" alt="restoff"></a>
+    <div class="click">
+      <h6>Click Me!</h6>
+      <i class="bi bi-arrow-return-left" style="font-size: 24px;"></i>
+    </div>
+    </div>
+   </div>
+   </div>
+
+   <hr style="height: 3px; background-color: black; margin-top: 25px;">
+
+   <div class="container" id="contact">
+    <h4>Contact Me!</h4>
+    <h5>Have any questions? Fill out the form and I’ll get you a response soon!</h5>
+    <div>Name</div>
+    <form>
+    <div class="input-group">
+  <span class="input-group-text">First and last name</span>
+  <input type="text" aria-label="First name" class="form-control" required>
+  <input type="text" aria-label="Last name" class="form-control" required>
+  </div>
+  <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+  </div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="How can I help you" required></textarea>
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+<div class="icon">
+  <a class="dropdown-item" href="https://www.linkedin.com/in/hanan-hafees-mohammed-068b1a381?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><i class="bi bi-linkedin"></i></a>
+  <a class="dropdown-item" href="https://github.com/hananhafees09"><i class="bi bi-github"></i></a>
+  <a class="dropdown-item" href="mailto:hanan6hafees@gmail.com"><i class="bi bi-envelope-at-fill"></i></a>
+</div>
+ </div>
+   
+   <footer class="text-white pt-4 pb-2 mt-5">
+    <div class="container text-center text-md-start">
+        <div class="row">
+            <div class="text-center">
+                <h5>Hanan Hafees</h5>
+                <p>Aspiring Software Developer building practical and user friendly solutions.</p>
+            </div>
+
+            <div class="text-center">
+                <p class="mb-0">&copy; 2026 Hanan Hafees. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+   </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+    </body>
+
+</html>
